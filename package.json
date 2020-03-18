@@ -19,6 +19,8 @@
     "classify",
     "foreign_key",
     "ordinalize",
+    "util",
+    "utils",
     "string"
   ],
   "homepage": "https://github.com/dreamerslab/node.inflection#readme",
@@ -57,24 +59,19 @@
     "test": "test"
   },
   "scripts": {
-    "coverage": "npx nyc yarn run test",
-    "lint": "npx eslint **/*.ts",
     "ncu": "npx yarn-tool ncu -u",
     "npm:publish": "npm publish",
-    "postpublish_": "git commit -m \"chore(release): publish\" .",
     "prepublish:lockfile": "npx sync-lockfile .",
     "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run test",
+    "postpublish": "git commit -m \"chore(release): publish\" .",
     "sort-package-json": "npx yarn-tool sort",
-    "test": "npx mocha test/inflection.js",
-    "test:mocha": "npx mocha --require ts-node/register \"!(node_modules)/**/*.{test,spec}.{ts,tsx}\"",
-    "tsc:default": "tsc -p tsconfig.json",
-    "tsc:esm": "tsc -p tsconfig.esm.json"
+    "test": "jest"
   },
   "dependencies": {},
   "devDependencies": {
     "@bluelovers/tsconfig": "^1.0.18",
-    "@types/mocha": "^7.0.2",
-    "mocha": "7.1.0",
-    "should": "13.2.3"
+    "@types/jest": "^25.1.4",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1"
   }
 }
