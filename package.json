@@ -51,7 +51,7 @@
     "Ray Myers <ray.myers@gmail.com>",
     "Dillon Shook <dshook@alumni.nmt.edu>"
   ],
-  "main": "inflection.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
@@ -72,6 +72,8 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@bluelovers/tsconfig": "^1.0.18",
+    "@types/mocha": "^7.0.2",
     "mocha": "7.1.0",
     "should": "13.2.3"
   }
