@@ -1,4 +1,4 @@
-var inflection = require( '../lib/inflection' );
+var inflection = require( '../inflection' );
 var should     = require( 'should' );
 
 describe( 'test .version', function (){
