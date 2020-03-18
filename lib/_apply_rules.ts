@@ -21,12 +21,12 @@ export function _apply_rules(str: string, rules: [RegExp, string?][], skip: stri
 	}
 	else
 	{
-		var ignore = (indexOf(skip, str.toLowerCase()) > -1);
+		let ignore = (indexOf(skip, str.toLowerCase()) > -1);
 
 		if (!ignore)
 		{
-			var i = 0;
-			var j = rules.length;
+			let i = 0;
+			let j = rules.length;
 
 			for (; i < j; i++)
 			{

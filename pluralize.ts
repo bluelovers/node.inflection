@@ -1,5 +1,6 @@
 import { _apply_rules } from './lib/_apply_rules';
-import { plural_rules, uncountable_words } from './lib/util';
+import { uncountable_words } from './lib/uncountable_words';
+import { plural_rules } from './lib/rules/plural_rules';
 
 /**
  * This function adds pluralization support to every String object.

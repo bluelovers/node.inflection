@@ -1,5 +1,6 @@
 import { _apply_rules } from './lib/_apply_rules';
-import { singular_rules, uncountable_words } from './lib/util';
+import { uncountable_words } from './lib/uncountable_words';
+import { singular_rules } from './lib/rules/singular_rules';
 
 /**
  * This function adds singularization support to every String object.

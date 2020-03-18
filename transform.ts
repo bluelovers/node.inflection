@@ -20,7 +20,7 @@ export function transform(str, arr: (keyof typeof inflector)[])
 
 	for (; i < j; i++)
 	{
-		var method = arr[i];
+		let method = arr[i];
 
 		if (inflector.hasOwnProperty(method))
 		{

@@ -18,10 +18,10 @@ import _apply_rules from './lib/_apply_rules';
  */
 export function camelize(str: string, low_first_letter?: boolean)
 {
-	var str_path = str.split('/');
-	var i = 0;
-	var j = str_path.length;
-	var str_arr, init_x, k, l, first;
+	let str_path = str.split('/');
+	let i = 0;
+	let j = str_path.length;
+	let str_arr, init_x, k, l, first;
 
 	for (; i < j; i++)
 	{

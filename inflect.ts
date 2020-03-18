@@ -1,5 +1,7 @@
 import { _apply_rules } from './lib/_apply_rules';
-import { plural_rules, uncountable_words, singular_rules } from './lib/util';
+import { uncountable_words } from './lib/uncountable_words';
+import { plural_rules } from './lib/rules/plural_rules';
+import { singular_rules } from './lib/rules/singular_rules';
 
 /**
  * This function will pluralize or singularlize a String appropriately based on an integer value

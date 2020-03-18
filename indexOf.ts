@@ -16,16 +16,20 @@ import _apply_rules from './lib/_apply_rules';
  *     inflection.indexOf([ 'hi','there' ], 'guys' ); // === -1
  *     inflection.indexOf([ 'hi','there' ], 'hi' ); // === 0
  */
-export function indexOf<T, S = T>(arr: T[], item: S | any, from_index?: number, compare_func?: (value: T, item: S) => boolean)
+export function indexOf<T, S = T>(arr: T[],
+	item: S | any,
+	from_index?: number,
+	compare_func?: (value: T, item: S) => boolean,
+)
 {
 	if (!from_index)
 	{
 		from_index = -1;
 	}
 
-	var index = -1;
-	var i = from_index;
-	var j = arr.length;
+	let index = -1;
+	let i = from_index;
+	let j = arr.length;
 
 	for (; i < j; i++)
 	{

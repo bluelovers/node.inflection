@@ -14,19 +14,19 @@ import _apply_rules from './lib/_apply_rules';
  */
 export function ordinalize(str: string)
 {
-	var str_arr = str.split(' ');
-	var i = 0;
-	var j = str_arr.length;
+	let str_arr = str.split(' ');
+	let i = 0;
+	let j = str_arr.length;
 
 	for (; i < j; i++)
 	{
-		var k = parseInt(str_arr[i], 10);
+		let k = parseInt(str_arr[i], 10);
 
 		if (!isNaN(k))
 		{
-			var ltd = str_arr[i].substring(str_arr[i].length - 2);
-			var ld = str_arr[i].substring(str_arr[i].length - 1);
-			var suf = 'th';
+			let ltd = str_arr[i].substring(str_arr[i].length - 2);
+			let ld = str_arr[i].substring(str_arr[i].length - 1);
+			let suf = 'th';
 
 			if (ltd != '11' && ltd != '12' && ltd != '13')
 			{

@@ -1,7 +1,8 @@
-import { underbar, non_titlecased_words } from './lib/util';
+import { underbar } from './lib/util';
 import { indexOf } from './indexOf';
 import { capitalize } from './capitalize';
 import _apply_rules from './lib/_apply_rules';
+import { non_titlecased_words } from './lib/non_titlecased_words';
 
 /**
  * This function adds titleize support to every String object.
@@ -19,10 +20,10 @@ import _apply_rules from './lib/_apply_rules';
 export function titleize(str: string)
 {
 	str = str.toLowerCase().replace(underbar, ' ');
-	var str_arr = str.split(' ');
-	var i = 0;
-	var j = str_arr.length;
-	var d, k, l;
+	let str_arr = str.split(' ');
+	let i = 0;
+	let j = str_arr.length;
+	let d, k, l;
 
 	for (; i < j; i++)
 	{
