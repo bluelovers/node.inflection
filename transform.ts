@@ -13,16 +13,15 @@
  */
 import inflector from './lib/inflector';
 
-export function transform(str, arr: (keyof typeof inflector)[])
+export function transform(str: string, arr: (keyof typeof inflector | ((str: string, ...argv: any[]) => string) | ((str: string) => string))[])
 {
-	let i = 0;
-	const j = arr.length;
-
-	for (; i < j; i++)
+	for (const method of arr)
 	{
-		const method = arr[i];
-
-		if (inflector.hasOwnProperty(method))
+		if (typeof method === 'function')
+		{
+			str = method(str);
+		}
+		else if (inflector.hasOwnProperty(method))
 		{
 			str = inflector[method](str);
 		}
