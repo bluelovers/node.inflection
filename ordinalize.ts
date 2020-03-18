@@ -14,9 +14,9 @@ import _apply_rules from './lib/_apply_rules';
  */
 export function ordinalize(str: string)
 {
-	let str_arr = str.split(' ');
+	const str_arr = str.split(' ');
 	let i = 0;
-	let j = str_arr.length;
+	const j = str_arr.length;
 
 	for (; i < j; i++)
 	{

@@ -22,9 +22,9 @@ export function underscore(str: string, all_upper_case?: boolean)
 {
 	if (all_upper_case && str === str.toUpperCase()) return str;
 
-	let str_path = str.split('::');
+	const str_path = str.split('::');
 	let i = 0;
-	let j = str_path.length;
+	const j = str_path.length;
 
 	for (; i < j; i++)
 	{

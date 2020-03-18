@@ -18,9 +18,9 @@ import _apply_rules from './lib/_apply_rules';
  */
 export function camelize(str: string, low_first_letter?: boolean)
 {
-	let str_path = str.split('/');
+	const str_path = str.split('/');
 	let i = 0;
-	let j = str_path.length;
+	const j = str_path.length;
 	let str_arr, init_x, k, l, first;
 
 	for (; i < j; i++)

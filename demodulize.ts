@@ -14,7 +14,7 @@ import _apply_rules from './lib/_apply_rules';
  */
 export function demodulize(str: string)
 {
-	let str_arr = str.split('::');
+	const str_arr = str.split('::');
 
 	return str_arr[str_arr.length - 1];
 }

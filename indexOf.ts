@@ -29,7 +29,7 @@ export function indexOf<T, S = T>(arr: T[],
 
 	let index = -1;
 	let i = from_index;
-	let j = arr.length;
+	const j = arr.length;
 
 	for (; i < j; i++)
 	{

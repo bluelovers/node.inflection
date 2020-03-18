@@ -20,9 +20,9 @@ import { non_titlecased_words } from './lib/non_titlecased_words';
 export function titleize(str: string)
 {
 	str = str.toLowerCase().replace(underbar, ' ');
-	let str_arr = str.split(' ');
+	const str_arr = str.split(' ');
 	let i = 0;
-	let j = str_arr.length;
+	const j = str_arr.length;
 	let d, k, l;
 
 	for (; i < j; i++)
