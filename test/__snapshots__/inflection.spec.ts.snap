@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test .camelize should camelize the given word 1`] = `"MessageProperties"`;
+
+exports[`test .camelize should camelize the given word 2`] = `"messageProperties"`;
+
+exports[`test .camelize should camelize the given word 3`] = `"MessageProperties"`;
+
+exports[`test .camelize should camelize the given word 4`] = `"messageProperties"`;
+
+exports[`test .camelize should camelize the given word 5`] = `"MESSAGEProperties"`;
+
+exports[`test .camelize should camelize the given word 6`] = `"mESSAGEProperties"`;
+
+exports[`test .camelize should camelize the given word 7`] = `"fooBarBaz"`;
+
+exports[`test .camelize should camelize the given word 8`] = `"fooBarBaz"`;
+
+exports[`test .camelize should camelize the given word 9`] = `"fooBarFoobaz"`;
+
+exports[`test .camelize should camelize the given word 10`] = `"fooBarFoobaz"`;
+
+exports[`test .camelize should camelize the given word 11`] = `"FooBar"`;
+
+exports[`test .camelize should camelize the given word 12`] = `"fooBar"`;
+
+exports[`test .camelize should camelize the given word 13`] = `"foo::Bar"`;
+
+exports[`test .camelize should camelize the given word 14`] = `"Foo::Bar"`;
+
+exports[`test .capitalize should capitalize the given word 1`] = `"Message_properties"`;
+
+exports[`test .capitalize should capitalize the given word 2`] = `"Message properties"`;
+
+exports[`test .classify should classify the given word 1`] = `"MessageBusProperty"`;
+
+exports[`test .dasherize should dasherize the given word 1`] = `"message-properties"`;
+
+exports[`test .dasherize should dasherize the given word 2`] = `"Message-Properties"`;
+
+exports[`test .demodulize should demodulize the given word 1`] = `"Properties"`;
+
+exports[`test .foreign_key should transform the given word to foreign_key 1`] = `"message_bus_property_id"`;
+
+exports[`test .foreign_key should transform the given word to foreign_key 2`] = `"message_bus_propertyid"`;
+
+exports[`test .humanize should humanize the given word 1`] = `"Message properties"`;
+
+exports[`test .humanize should humanize the given word 2`] = `"message properties"`;
+
+exports[`test .indexOf should return proper index key 1`] = `-1`;
+
+exports[`test .indexOf should return proper index key 2`] = `0`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 1`] = `"people"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 2`] = `"men"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 3`] = `"people"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 4`] = `"octopi"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 5`] = `"Hats"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 6`] = `"data"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 7`] = `"meta"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 8`] = `"guys"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 9`] = `"people"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 10`] = `"men"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 11`] = `"people"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 12`] = `"octopi"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 13`] = `"Hats"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 14`] = `"data"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 15`] = `"meta"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 16`] = `"guys"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 17`] = `"status"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 18`] = `"child"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 19`] = `"child"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 20`] = `"address"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 21`] = `"person"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 22`] = `"person"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 23`] = `"movie"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 24`] = `"query"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 25`] = `"octopus"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 26`] = `"Hat"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 27`] = `"datum"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 28`] = `"metum"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 29`] = `"person"`;
+
+exports[`test .inflect should correctly inflect the given word based on an integer 30`] = `"original"`;
+
+exports[`test .kebabize should kebabize the given word 1`] = `"people"`;
+
+exports[`test .kebabize should kebabize the given word 2`] = `"message-bus-property"`;
+
+exports[`test .ordinalize should ordinalize the given word 1`] = `"the 1st pitch"`;
+
+exports[`test .pluralize should pluralize the given word 1`] = `"people"`;
+
+exports[`test .pluralize should pluralize the given word 2`] = `"men"`;
+
+exports[`test .pluralize should pluralize the given word 3`] = `"women"`;
+
+exports[`test .pluralize should pluralize the given word 4`] = `"women"`;
+
+exports[`test .pluralize should pluralize the given word 5`] = `"people"`;
+
+exports[`test .pluralize should pluralize the given word 6`] = `"octopi"`;
+
+exports[`test .pluralize should pluralize the given word 7`] = `"humans"`;
+
+exports[`test .pluralize should pluralize the given word 8`] = `"aircraft"`;
+
+exports[`test .pluralize should pluralize the given word 9`] = `"luck"`;
+
+exports[`test .pluralize should pluralize the given word 10`] = `"Hats"`;
+
+exports[`test .pluralize should pluralize the given word 11`] = `"lives"`;
+
+exports[`test .pluralize should pluralize the given word 12`] = `"baths"`;
+
+exports[`test .pluralize should pluralize the given word 13`] = `"calves"`;
+
+exports[`test .pluralize should pluralize the given word 14`] = `"feet"`;
+
+exports[`test .pluralize should pluralize the given word 15`] = `"books"`;
+
+exports[`test .pluralize should pluralize the given word 16`] = `"geese"`;
+
+exports[`test .pluralize should pluralize the given word 17`] = `"teeth"`;
+
+exports[`test .pluralize should pluralize the given word 18`] = `"teeth"`;
+
+exports[`test .pluralize should pluralize the given word 19`] = `"knives"`;
+
+exports[`test .pluralize should pluralize the given word 20`] = `"halves"`;
+
+exports[`test .pluralize should pluralize the given word 21`] = `"caves"`;
+
+exports[`test .pluralize should pluralize the given word 22`] = `"saves"`;
+
+exports[`test .pluralize should pluralize the given word 23`] = `"streets"`;
+
+exports[`test .pluralize should pluralize the given word 24`] = `"streets"`;
+
+exports[`test .pluralize should pluralize the given word 25`] = `"data"`;
+
+exports[`test .pluralize should pluralize the given word 26`] = `"meta"`;
+
+exports[`test .pluralize should pluralize the given word 27`] = `"summonses"`;
+
+exports[`test .pluralize should pluralize the given word 28`] = `"whereases"`;
+
+exports[`test .pluralize should pluralize the given word 29`] = `"guys"`;
+
+exports[`test .pluralize should pluralize the given word 30`] = `"indices"`;
+
+exports[`test .pluralize should pluralize the given word 31`] = `"matrices"`;
+
+exports[`test .pluralize should pluralize the given word 32`] = `"vertices"`;
+
+exports[`test .pluralize should pluralize the given word 33`] = `"canvases"`;
+
+exports[`test .pluralize should pluralize the given word 34`] = `"campuses"`;
+
+exports[`test .pluralize should pluralize the given word 35`] = `"campuses"`;
+
+exports[`test .pluralize should pluralize the given word 36`] = `"criteria"`;
+
+exports[`test .pluralize should pluralize the given word 37`] = `"criteria"`;
+
+exports[`test .pluralize should pluralize the given word 38`] = `"genera"`;
+
+exports[`test .pluralize should pluralize the given word 39`] = `"genera"`;
+
+exports[`test .singularize should singularize the given word 1`] = `"status"`;
+
+exports[`test .singularize should singularize the given word 2`] = `"child"`;
+
+exports[`test .singularize should singularize the given word 3`] = `"child"`;
+
+exports[`test .singularize should singularize the given word 4`] = `"address"`;
+
+exports[`test .singularize should singularize the given word 5`] = `"man"`;
+
+exports[`test .singularize should singularize the given word 6`] = `"woman"`;
+
+exports[`test .singularize should singularize the given word 7`] = `"woman"`;
+
+exports[`test .singularize should singularize the given word 8`] = `"person"`;
+
+exports[`test .singularize should singularize the given word 9`] = `"person"`;
+
+exports[`test .singularize should singularize the given word 10`] = `"movie"`;
+
+exports[`test .singularize should singularize the given word 11`] = `"query"`;
+
+exports[`test .singularize should singularize the given word 12`] = `"octopus"`;
+
+exports[`test .singularize should singularize the given word 13`] = `"Hat"`;
+
+exports[`test .singularize should singularize the given word 14`] = `"life"`;
+
+exports[`test .singularize should singularize the given word 15`] = `"bath"`;
+
+exports[`test .singularize should singularize the given word 16`] = `"calf"`;
+
+exports[`test .singularize should singularize the given word 17`] = `"foot"`;
+
+exports[`test .singularize should singularize the given word 18`] = `"book"`;
+
+exports[`test .singularize should singularize the given word 19`] = `"goose"`;
+
+exports[`test .singularize should singularize the given word 20`] = `"tooth"`;
+
+exports[`test .singularize should singularize the given word 21`] = `"tooth"`;
+
+exports[`test .singularize should singularize the given word 22`] = `"knife"`;
+
+exports[`test .singularize should singularize the given word 23`] = `"half"`;
+
+exports[`test .singularize should singularize the given word 24`] = `"cave"`;
+
+exports[`test .singularize should singularize the given word 25`] = `"save"`;
+
+exports[`test .singularize should singularize the given word 26`] = `"street"`;
+
+exports[`test .singularize should singularize the given word 27`] = `"street"`;
+
+exports[`test .singularize should singularize the given word 28`] = `"datum"`;
+
+exports[`test .singularize should singularize the given word 29`] = `"metum"`;
+
+exports[`test .singularize should singularize the given word 30`] = `"whereas"`;
+
+exports[`test .singularize should singularize the given word 31`] = `"person"`;
+
+exports[`test .singularize should singularize the given word 32`] = `"matrix"`;
+
+exports[`test .singularize should singularize the given word 33`] = `"vertex"`;
+
+exports[`test .singularize should singularize the given word 34`] = `"canvas"`;
+
+exports[`test .singularize should singularize the given word 35`] = `"campus"`;
+
+exports[`test .singularize should singularize the given word 36`] = `"campus"`;
+
+exports[`test .singularize should singularize the given word 37`] = `"criterion"`;
+
+exports[`test .singularize should singularize the given word 38`] = `"criterion"`;
+
+exports[`test .singularize should singularize the given word 39`] = `"genus"`;
+
+exports[`test .singularize should singularize the given word 40`] = `"genus"`;
+
+exports[`test .singularize should singularize the given word 41`] = `"minus"`;
+
+exports[`test .tableize should tableize the given word 1`] = `"people"`;
+
+exports[`test .tableize should tableize the given word 2`] = `"message_bus_properties"`;
+
+exports[`test .titleize should titleize the given word 1`] = `"Message Properties"`;
+
+exports[`test .titleize should titleize the given word 2`] = `"Message Properties to Keep"`;
+
+exports[`test .transform should transform the given word with given methods 1`] = `"all-jobs"`;
+
+exports[`test .transform should transform the given word with given methods 2`] = `"all jobs"`;
+
+exports[`test .transform should transform the given word with given methods 3`] = `"All-jobs"`;
+
+exports[`test .transform transform allow use function in methods 1`] = `"All-jobs99"`;
+
+exports[`test .underscore should transform the given word with underscore 1`] = `"message_properties"`;
+
+exports[`test .underscore should transform the given word with underscore 2`] = `"message_properties"`;
+
+exports[`test .underscore should transform the given word with underscore 3`] = `"m_p"`;
+
+exports[`test .underscore should transform the given word with underscore 4`] = `"MP"`;

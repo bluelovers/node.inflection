@@ -19,11 +19,11 @@ exports.transform = void 0;
  */
 const inflector_1 = __importDefault(require("./lib/inflector"));
 function transform(str, arr) {
-    let i = 0;
-    const j = arr.length;
-    for (; i < j; i++) {
-        const method = arr[i];
-        if (inflector_1.default.hasOwnProperty(method)) {
+    for (const method of arr) {
+        if (typeof method === 'function') {
+            str = method(str);
+        }
+        else if (inflector_1.default.hasOwnProperty(method)) {
             str = inflector_1.default[method](str);
         }
     }

@@ -12,5 +12,5 @@
  *     inflection.transform( 'all job', [ 'pluralize', 'capitalize', 'dasherize' ]); // === 'All-jobs'
  */
 import inflector from './lib/inflector';
-export declare function transform(str: any, arr: (keyof typeof inflector)[]): any;
+export declare function transform(str: string, arr: (keyof typeof inflector | ((str: string, ...argv: any[]) => string) | ((str: string) => string))[]): string;
 export default transform;
